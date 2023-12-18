@@ -9,5 +9,5 @@ rw.fill_walk()
 # Paint dot`s on the graph
 plt.style.use('classic')
 ax = plt.subplot()
-ax.scatter(rw.x_values, rw.y_values, s=15)
+ax.plot(rw.x_values, rw.y_values, linewidth=5)
 plt.show()
